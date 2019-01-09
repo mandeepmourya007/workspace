@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700" rel="stylesheet">
 
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
 
     <link rel="stylesheet" href="css/animate.css">
@@ -582,18 +590,31 @@
 		<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
+
+ <!-- close_button -->
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+    <span class="glyphicon glyphicon-remove" onclick ="div_hide()"></span>  </button>
+
+
 		<section  id="order" class="ftco-section ftco-appointment">
 			<div class="overlay"></div>
     	<div class="container">
     		<div class="row d-md-flex align-items-center">
     			<div class="col-md-2"></div>
 
+
+
+
 	    		<div class="col-md-6 appointment pl-md-5 ftco-animate">
-	    			<h3 class="mb-3">Appointments</h3>
+	    			<h3 class="mb-3">Appointments</h3> 
+
+
 	    			<form action="#" class="appointment-form">
 	            <div class="row form-group d-flex">
+
 	            	<div class="col-md-6">
 	            		<input type="text" class="form-control" placeholder="First Name">
+                  
 	            	</div>
 	            	<div class="col-md-6">
 	            		<input type="text" class="form-control" placeholder="Last Name">
@@ -614,7 +635,9 @@
 	              <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Message"></textarea>
 	            </div>
 	            <div class="form-group">
+
 	              <input type="submit" value="Order" class="btn btn-white btn-outline-white py-3 px-4">
+
 	            </div>
 
 	          </form>
@@ -624,16 +647,17 @@
 	    			<div class="appointment-info text-center p-5">
 	    				<div class="mb-4">
 	    					<h3 class="mb-3">Address</h3>
-		    				<p>	203 Fake St. Mountain View, San Francisco, California, USA</p>
+		    				<p>	Chachowalia Tent House, Batala</p>
 	    				</div>
 	    				<div class="mb-4">
 		    				<h3 class="mb-3">Phone</h3>
-		    				<p class="day"><strong>000 123 456</strong> or <strong>000 987 654</strong></p>
+		    				<p class="day"><strong>+919855555598</strong> </p>
 	    				</div>
 	    				<div>
 		    				<h3 class="mb-3">Opening Hours</h3>
 		    				<p class="day"><strong>Monday - Friday</strong></p>
 		    				<span>08:00am - 09:00pm</span>
+                <span>Sunday: Close</span>
 	    				</div>
 	    			</div>
 	    		</div>
@@ -645,14 +669,24 @@
         </div>
 
 
-    <footer class="ftco-footer ftco-section img">
-    	<div class="overlay"></div>
+        <footer class="ftco-footer ftco-section img">
+      <div class="overlay"></div>
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-4">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">About Us</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <h2 class="ftco-heading-2">Why Choose Us</h2>
+              
+                    
+                    <ul>
+                        <li>Created from natural herbs</li>
+                        <li>100% safe for your skin</li>
+                        <li>Quality product from SpaLabs</li>
+                        <li>Special gifts & offers for you</li>
+                        <li>Created from natural herbs</li>
+                        <li>100% safe for your skin</li>
+                    </ul>
+
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -662,32 +696,19 @@
           </div>
           <div class="col-md-4">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Recent Work</h2>
+              <h2 class="ftco-heading-2">Quality</h2>
               <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
+                <!-- <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a> -->
                 <div class="text">
-                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
-                  <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span> July 12, 2018</a></div>
-                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                  </div>
+                  <h3 class="heading"><a href="#"><p><b>We Proudly give quality, thorough chiropractic to the group and the encompassing regions.</b></p></a></h3>
+                 
+
+
                 </div>
               </div>
-              <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
-                <div class="text">
-                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
-                  <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span> July 12, 2018</a></div>
-                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                  </div>
-                </div>
-              </div>
+              
             </div>
           </div>
-
           <div class="col-md-4">
             <div class="ftco-footer-widget mb-4">
             	<h2 class="ftco-heading-2">Have a Questions?</h2>
@@ -695,8 +716,8 @@
             	<div class="block-23 mb-4">
 	              <ul>
 	                <li><span class="icon icon-map-marker"></span><span class="text"></span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91 985556989</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">nk@gmail.com</span></a></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91 9855555598</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@nkmakeovers.com</span></a></li>
 	              </ul>
 	            </div>
             </div>
@@ -717,6 +738,8 @@
 
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
 
 
   <script src="js/jquery.min.js"></script>
