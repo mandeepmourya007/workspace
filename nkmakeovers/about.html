@@ -7,6 +7,14 @@
     
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700" rel="stylesheet">
 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
@@ -100,128 +108,79 @@ This comes handy to me later, when instead of experimenting with tons of makeup 
       <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
     <span class="glyphicon glyphicon-remove" onclick ="div_hide()"></span>  </button>
 
-    
+
 		<section  id="order" class="ftco-section ftco-appointment">
-			<div class="overlay"></div>
-    	<div class="container">
-    		<div class="row d-md-flex align-items-center">
-    			<div class="col-md-2"></div>
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row d-md-flex align-items-center">
+          <div class="col-md-2"></div>
 
-	    		<div class="col-md-6 appointment pl-md-5 ftco-animate">
-	    			<h3 class="mb-3">Appointments</h3>
-	    			<form action="#" class="appointment-form">
-	            <div class="row form-group d-flex">
-	            	<div class="col-md-6">
-	            		<input type="text" class="form-control" placeholder="First Name">
-	            	</div>
-	            	<div class="col-md-6">
-	            		<input type="text" class="form-control" placeholder="Last Name">
-	            	</div>
-	            </div>
-	            <div class="row form-group d-flex">
-	            	<div class="col-md-6">
-	            		<div class="input-wrap">
-		            		<div class="icon"><span class="ion-md-calendar"></span></div>
-		            		<input type="text" id="appointment_date" class="form-control" placeholder="Date">
-	            		</div>
-	            	</div>
-	            	<div class="col-md-6">
-	            		<input type="text" class="form-control" placeholder="Phone">
-	            	</div>
-	            </div>
-	            <div class="form-group">
-	              <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Message"></textarea>
-	            </div>
-	            <div class="form-group">
-	              <input type="submit" value="Order" class="btn btn-white btn-outline-white py-3 px-4">
-	            </div>
 
-	          </form>
 
-	    		</div>
+
+          <div class="col-md-6 appointment pl-md-5 ftco-animate">
+            <h3 class="mb-3">Appointments</h3> 
+
+
+            <form action="#" class="appointment-form">
+              <div class="row form-group d-flex">
+
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="First Name">
+                  
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="Last Name">
+                </div>
+              </div>
+              <div class="row form-group d-flex">
+                <div class="col-md-6">
+                  <div class="input-wrap">
+                    <div class="icon"><span class="ion-md-calendar"></span></div>
+                    <input type="text" id="appointment_date" class="form-control" placeholder="Date">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="Phone">
+                </div>
+              </div>
+              <div class="form-group">
+                <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Message"></textarea>
+              </div>
+              <div class="form-group">
+
+                <input type="submit" value="Order" class="btn btn-white btn-outline-white py-3 px-4">
+
+              </div>
+
+            </form>
+
+          </div>
                 <div class="col-md-4 d-flex align-self-stretch ftco-animate">
-	    			<div class="appointment-info text-center p-5">
-	    				<div class="mb-4">
-	    					<h3 class="mb-3">Address</h3>
-		    				<p>	203 Fake St. Mountain View, San Francisco, California, USA</p>
-	    				</div>
-	    				<div class="mb-4">
-		    				<h3 class="mb-3">Phone</h3>
-		    				<p class="day"><strong>000 123 456</strong> or <strong>000 987 654</strong></p>
-	    				</div>
-	    				<div>
-		    				<h3 class="mb-3">Opening Hours</h3>
-		    				<p class="day"><strong>Monday - Friday</strong></p>
-		    				<span>08:00am - 09:00pm</span>
-	    				</div>
-	    			</div>
-	    		</div>
-    		</div>
-    	</div>
+            <div class="appointment-info text-center p-5">
+              <div class="mb-4">
+                <h3 class="mb-3">Address</h3>
+                <p> Chachowalia Tent House, Batala</p>
+              </div>
+              <div class="mb-4">
+                <h3 class="mb-3">Phone</h3>
+                <p class="day"><strong>+919855555598</strong> </p>
+              </div>
+              <div>
+                <h3 class="mb-3">Opening Hours</h3>
+                <p class="day"><strong>Monday - Friday</strong></p>
+                <span>08:00am - 09:00pm</span>
+                <span>Sunday: Close</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     </div>
   </div>
         </div>
-    <section class="ftco-section bg-light">
-      <div class="container">
-      	<div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section ftco-animate text-center">
-            <h2 class="mb-4">Our Beauty Experts</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-          </div>
-        </div>
-        <div class="row">
-        	<div class="col-lg-3 d-flex mb-sm-4 ftco-animate">
-        		<div class="staff">
-      				<div class="img mb-4" style="background-image: url(images/person_1.jpg);"></div>
-      				<div class="info text-center">
-      					<h3><a href="teacher-single.html">Mellisa Smith</a></h3>
-      					<span class="position">Stylist</span>
-      					<div class="text">
-	        				<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-	        			</div>
-      				</div>
-        		</div>
-        	</div>
-        	<div class="col-lg-3 d-flex mb-sm-4 ftco-animate">
-        		<div class="staff">
-      				<div class="img mb-4" style="background-image: url(images/person_2.jpg);"></div>
-      				<div class="info text-center">
-      					<h3><a href="teacher-single.html">Marie Mush</a></h3>
-      					<span class="position">Fashionist</span>
-      					<div class="text">
-	        				<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-	        			</div>
-      				</div>
-        		</div>
-        	</div>
-        	<div class="col-lg-3 d-flex mb-sm-4 ftco-animate">
-        		<div class="staff">
-      				<div class="img mb-4" style="background-image: url(images/person_3.jpg);"></div>
-      				<div class="info text-center">
-      					<h3><a href="teacher-single.html">Ana Jacobson</a></h3>
-      					<span class="position">Makeup Stylist</span>
-      					<div class="text">
-	        				<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-	        			</div>
-      				</div>
-        		</div>
-        	</div>
-        	<div class="col-lg-3 d-flex mb-sm-4 ftco-animate">
-        		<div class="staff">
-      				<div class="img mb-4" style="background-image: url(images/person_4.jpg);"></div>
-      				<div class="info text-center">
-      					<h3><a href="teacher-single.html">Ivan Dorchsner</a></h3>
-      					<span class="position">Nail Specialist</span>
-      					<div class="text">
-	        				<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-	        			</div>
-      				</div>
-        		</div>
-        	</div>
-        </div>
-      </div>
-    </section>
+
 
         <footer class="ftco-footer ftco-section img">
       <div class="overlay"></div>

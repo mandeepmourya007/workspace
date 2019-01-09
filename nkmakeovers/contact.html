@@ -7,6 +7,13 @@
     
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700" rel="stylesheet">
 
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
@@ -82,69 +89,78 @@
       <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
     <span class="glyphicon glyphicon-remove" onclick ="div_hide()"></span>  </button>
 
-    
+
 		<section  id="order" class="ftco-section ftco-appointment">
-			<div class="overlay"></div>
-    	<div class="container">
-    		<div class="row d-md-flex align-items-center">
-    			<div class="col-md-2"></div>
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row d-md-flex align-items-center">
+          <div class="col-md-2"></div>
 
-	    		<div class="col-md-6 appointment pl-md-5 ftco-animate">
-	    			<h3 class="mb-3">Appointments</h3>
-	    			<form action="#" class="appointment-form">
-	            <div class="row form-group d-flex">
-	            	<div class="col-md-6">
-	            		<input type="text" class="form-control" placeholder="First Name">
-	            	</div>
-	            	<div class="col-md-6">
-	            		<input type="text" class="form-control" placeholder="Last Name">
-	            	</div>
-	            </div>
-	            <div class="row form-group d-flex">
-	            	<div class="col-md-6">
-	            		<div class="input-wrap">
-		            		<div class="icon"><span class="ion-md-calendar"></span></div>
-		            		<input type="text" id="appointment_date" class="form-control" placeholder="Date">
-	            		</div>
-	            	</div>
-	            	<div class="col-md-6">
-	            		<input type="text" class="form-control" placeholder="Phone">
-	            	</div>
-	            </div>
-	            <div class="form-group">
-	              <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Message"></textarea>
-	            </div>
-	            <div class="form-group">
-	              <input type="submit" value="Order" class="btn btn-white btn-outline-white py-3 px-4">
-	            </div>
 
-	          </form>
 
-	    		</div>
+
+          <div class="col-md-6 appointment pl-md-5 ftco-animate">
+            <h3 class="mb-3">Appointments</h3> 
+
+
+            <form action="#" class="appointment-form">
+              <div class="row form-group d-flex">
+
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="First Name">
+                  
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="Last Name">
+                </div>
+              </div>
+              <div class="row form-group d-flex">
+                <div class="col-md-6">
+                  <div class="input-wrap">
+                    <div class="icon"><span class="ion-md-calendar"></span></div>
+                    <input type="text" id="appointment_date" class="form-control" placeholder="Date">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="Phone">
+                </div>
+              </div>
+              <div class="form-group">
+                <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Message"></textarea>
+              </div>
+              <div class="form-group">
+
+                <input type="submit" value="Order" class="btn btn-white btn-outline-white py-3 px-4">
+
+              </div>
+
+            </form>
+
+          </div>
                 <div class="col-md-4 d-flex align-self-stretch ftco-animate">
-	    			<div class="appointment-info text-center p-5">
-	    				<div class="mb-4">
-	    					<h3 class="mb-3">Address</h3>
-		    				<p>	203 Fake St. Mountain View, San Francisco, California, USA</p>
-	    				</div>
-	    				<div class="mb-4">
-		    				<h3 class="mb-3">Phone</h3>
-		    				<p class="day"><strong>000 123 456</strong> or <strong>000 987 654</strong></p>
-	    				</div>
-	    				<div>
-		    				<h3 class="mb-3">Opening Hours</h3>
-		    				<p class="day"><strong>Monday - Friday</strong></p>
-		    				<span>08:00am - 09:00pm</span>
-	    				</div>
-	    			</div>
-	    		</div>
-    		</div>
-    	</div>
+            <div class="appointment-info text-center p-5">
+              <div class="mb-4">
+                <h3 class="mb-3">Address</h3>
+                <p> Chachowalia Tent House, Batala</p>
+              </div>
+              <div class="mb-4">
+                <h3 class="mb-3">Phone</h3>
+                <p class="day"><strong>+919855555598</strong> </p>
+              </div>
+              <div>
+                <h3 class="mb-3">Opening Hours</h3>
+                <p class="day"><strong>Monday - Friday</strong></p>
+                <span>08:00am - 09:00pm</span>
+                <span>Sunday: Close</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     </div>
   </div>
         </div>
-   
 
     <section class="ftco-section contact-section">
         <div class="container mt-5">
@@ -155,16 +171,16 @@
 		              <h2 class="h4">Contact Information</h2>
 		            </div>
 		            <div class="col-md-12 mb-3">
-		              <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+		              <p><span>Address:</span> Chachowalia Tent House, Batala</p>
 		            </div>
 		            <div class="col-md-12 mb-3">
-		              <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+		              <p><span>Phone:</span> <a href="tel://1234567920">+919855555598</a></p>
 		            </div>
 		            <div class="col-md-12 mb-3">
-		              <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+		              <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@nkmakeovers.com</a></p>
 		            </div>
 		            <div class="col-md-12 mb-3">
-		              <p><span>Website:</span> <a href="#">yoursite.com</a></p>
+		              <!-- <p><span>Website:</span> <a href="#">yoursite.com</a></p> -->
 		            </div>
 							</div>
 						</div>
@@ -247,8 +263,8 @@
             	<div class="block-23 mb-4">
 	              <ul>
 	                <li><span class="icon icon-map-marker"></span><span class="text"></span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91 985556989</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">nk@gmail.com</span></a></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+919855555598</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@nkmakeovers.com</span></a></li>
 	              </ul>
 	            </div>
             </div>
